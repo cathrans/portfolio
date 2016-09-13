@@ -1,0 +1,533 @@
+@media only screen and (max-width: 1260px) {
+
+.header {
+  font-size: 0.9em;
+}
+
+}
+
+@media only screen and (max-width: 1230px) {
+
+.category {
+  font-size: 0.85em;
+}
+
+.pic {
+  position: relative;
+  border: 0px solid #fff;  
+  height: 370px;
+  float: right;
+  margin-bottom: 5em;
+  overflow: hidden;
+}
+
+
+ 
+}
+
+@media only screen and (max-width: 1260px) {
+
+
+}
+
+
+
+@media only screen and (max-width: 1070px) {
+
+
+.header {
+  font-size: 0.8em;
+}
+
+.project-menu {
+  background: black;
+  top: -270px;
+  height: 330px;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.project-menu img {
+  height: 80px;
+  margin: 10px 0px 0px 0px;
+}
+
+.project-menu img:hover {
+  height: 80px;
+  margin: 10px 0px 0px 0px;
+}
+
+.project-menu p {
+  font-size: .6em;
+  color: #eeeeee;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.project-menu li {
+  display: inline-block;
+  padding: 0.5em 0.5em 0em 0.5em;
+}
+
+.home-link li {
+  padding: 0em auto 0em auto;
+  margin: .5em auto 0em auto;
+}
+
+
+.course-type {
+  text-align: right;
+  padding-right: 0px;
+  margin-right: 0px;
+}
+
+.case-study-facts {
+  float: none;
+  display: inline;
+  width: 100%;
+}
+
+.case-study-facts #divider {
+  margin-top: 40em;
+}
+
+
+
+
+.case-study-block {
+  width: 100%;
+}
+
+.painting-block {
+  width: 75%;
+}
+
+.details {
+  width: 20%;
+}
+
+.case-study-block h2 {
+  text-align:center;
+}
+
+
+.col-1 {
+  width: 100%;
+}
+}
+
+@media only screen and (max-width: 1045px) {
+
+.header {
+  font-size: 0.8em;
+}
+
+.category {
+  font-size: 0.85em;
+}
+
+.projects h1 {
+  font-size: 1em;
+}
+
+.project-content {
+	width: 40%;
+  font-size: 0.9em;
+}
+
+.project-content p {
+  font-size: 1em;
+}
+
+.project-image, .project-image-last {
+	width: 50%;
+}
+
+.about {
+  font-size: 0.9em;  
+}
+
+.about p {
+  font-size: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.other {
+  font-size: 0.9em;
+}
+
+.other h1 {
+  font-size: 1.2em;
+}
+
+.other p {
+  font-size: 1em;
+}
+
+.button {
+  font-size: 1em;  
+}
+
+.contact {
+  font-size: 0.9em;    
+}
+
+.contact p {
+  font-size: 1em;    
+}
+
+.pic {
+  position: relative;
+  border: 0px solid #fff;  
+  height: 260px;
+  float: right;
+  margin-bottom: 3em;
+  overflow: hidden;
+}
+
+
+}
+
+
+@media only screen and (max-width: 1000px) {
+
+.col .pic {
+  height: 150px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  background-color: #ffffff;
+}
+
+}
+
+@media only screen and (max-width: 950px) {
+
+.header {
+  font-size: 0.7em;
+}
+
+.intro {
+ text-align: center;
+}
+
+.intro li {
+  font-weight: 300;
+  font-size: 0.9em;
+  line-height: 0.7em;
+  font-style: italic;
+  text-align: center;
+  padding: 0px 0px;
+  margin: 0px 0px;
+  display: block;
+}
+
+
+.about-block {
+  width: 100%;
+}
+
+
+}
+
+@media only screen and (max-width: 910px) {
+
+.header-index p {
+  font-size: 1em;
+}
+
+}
+
+
+
+@media only screen and (max-width: 870px) {
+
+#journal.container {
+  width: 100%;
+
+}
+
+#journal h1 {
+  margin-top: 2em;
+}
+
+.header-index {
+  width: 75%;
+}
+
+.p-first {
+  width: 100%;
+  text-align: center;
+  padding: 0;
+}
+
+.p-second {
+  width: 100%;
+  padding: 0;
+}
+
+.col-0 {
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+.first, .second, .third {
+  float: none;
+  width: inherit;
+}
+
+div.case-study-facts {
+  display: inline;
+}
+
+.quote, .quote-1, .quote-2, .quote-3, .quote-4, .quote-5, .quote-6 {
+  font-size: 1.7em;
+}
+
+.case-study-facts li {
+  display: inline;
+  border-bottom: 1px solid #eeeeee;
+
+}
+
+.col .pic {
+  height: 100%;
+  margin-bottom: 10px;
+  margin-top: 80px;
+}
+
+.pic {
+  position: relative;
+  border: 0px solid #fff;  
+  height: 100%;
+  float: right;
+  margin-bottom: 1em;
+  overflow: hidden;
+}
+
+.col {
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
+.first {
+  padding: 0px 10px 0px 10px;
+}
+
+.second {
+  padding: 0px 10px 0px 10px;
+}
+
+}
+
+
+@media only screen and (max-width: 750px) {
+
+.paragraph li {
+  padding-left: 0px;
+}
+
+}
+
+@media only screen and (max-width: 720px) {
+
+.intro {
+ text-align: center;
+}
+
+
+
+.about-block p {
+  padding-left: 0em;
+  padding-right: 0em;
+  font-size: 1em;
+}
+
+
+
+.painting-block {
+  width: 100%;
+}
+
+.details {
+  display: none;
+}
+
+.thumbnails-2 {
+  width: 100%;
+}
+
+.client {
+  width: 100%;
+}
+
+
+
+}
+
+@media only screen and (max-width: 700px) {
+
+.intro li {
+  font-weight: 300;
+  font-size: 0.9em;
+  line-height: 1.7em;
+  font-style: italic;
+  text-align: center;
+  padding: 0px 0px;
+  margin: 0px 0px;
+  display: inline;
+}
+}
+
+@media only screen and (max-width: 630px) {
+
+
+.quote, .quote-1, .quote-2, .quote-3, .quote-4, .quote-5, .quote-6 {
+  font-size: 1.5em;
+}
+
+.header-index h1 {
+  font-size: 1.5em;
+}
+
+.header-index p {
+  font-size: 1em;
+  line-height: 2;
+}
+
+.project-menu img {
+  display: none;
+}
+
+.project-menu li {
+  display: block;
+  padding: 0em 0em 0em 0em;
+}
+
+.project-menu li:first-child {
+  margin-top: 0.6em;
+}
+
+.project-menu p {
+  font-size: 0.9em;
+  line-height: 1.9em;
+}
+
+.project-menu a {
+  color: #ffffff;
+}
+
+
+
+.project-menu li a {
+  font-size: 1em;
+  line-height: 1em;
+  color: #eeeeee;
+}
+
+.home-link li {
+  padding: 0em auto 0em auto;
+  margin: 1em auto 0em auto;
+}
+
+}
+
+
+@media only screen and (max-width: 540px) {
+
+.intro {
+ text-align: center;
+}
+
+.about-me {
+	display: inline;
+}
+
+}
+
+@media only screen and (max-width: 500px) {
+
+
+.quote, .quote-1, .quote-2, .quote-3, .quote-4, .quote-5, .quote-6 {
+  font-size: 1.3em;
+}
+
+
+
+.header.container {
+  width: 90%;
+}
+
+.header-index {
+  width: 75%;
+}
+
+#work.container {
+  width: 100%;
+}
+
+
+
+.full-width .pull-right {
+  float: center;
+  width: inherit;
+  display: block;
+  text-align: center;
+}
+
+.course-type {
+  text-align: center;
+}
+
+.client {
+  text-align: center;
+}
+
+.full-width .pull-left {
+  float: center;
+  width: inherit;
+  display: block;
+  text-align: center;
+}
+
+.painting-client {
+  display: none;
+}
+
+.painting-left {
+  float: center;
+  width: inherit;
+  text-align: center;
+}
+
+}
+
+@media only screen and (max-width: 450px) {
+
+.header h3 {
+  line-height: 2;
+}
+
+}
+
+@media only screen and (max-width: 400px) {
+
+.intro {
+ text-align: center;
+}
+
+.about-block h1 {
+  font-size: 1.15em;
+}
+
+.case-study-facts {
+  display: none;
+}
+
+.other-content, .button {
+  margin-bottom: 2em;
+}
+
+}
