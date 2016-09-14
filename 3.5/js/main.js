@@ -1,27 +1,20 @@
-$(function () {
-        
-    var filterList = {
-    
-        init: function () {
-        
-            // MixItUp plugin
-            // http://mixitup.io
-            $('#myContent').mixItUp({
-                selectors: {
-              target: '.portfolio',
-              filter: '.filter' 
-          },
-          load: {
-              filter: 'all',  // show app tab on first load
-            }     
-            });                             
-        
-        }
+$(function() {
 
-    };
-    
-    // Run the show!
-    filterList.init();
-    
-}); 
+  var $grid = $('.portfolio-content').isotope({
+    itemSelector: '.portfolio',
+    percentPosition: true,
+    masonry: {
+      // use outer width of grid-sizer for columnWidth
+      columnWidth: '.grid-sizer',
+      gutter: 20
+    }
+  });
 
+  $('.filter-container').on('click', 'p', function() {
+    var filterValue = $(this).attr('data-filter');
+    $grid.isotope({
+      filter: filterValue
+    });
+  });
+
+});

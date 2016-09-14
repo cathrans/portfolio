@@ -1,23 +1,9 @@
-/* -------------------------------------------------- page settings -------------------------------------------------- */
-
-html * {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-*, *:after, *:before {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-      -ms-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 80%;
   color: #666;
   overflow-x: hidden;
-  background: #ffffff url('') no-repeat left top;
+  background: #ffffff no-repeat left top;
   background-size: cover;
 }
 
@@ -31,7 +17,6 @@ a {
 
 a:hover {
   color: #7986CB;
-  background: ;
   text-decoration: none;
   border-bottom: 8px solid #7986CB;
   transition: all 0.5s ease 0s;
@@ -39,7 +24,6 @@ a:hover {
 
 a:active {
   color: #7986CB;
-  background: ;
   text-decoration: none;
   border-bottom: 8px solid #7986CB;
   transition: all 0.5s ease 0s;
@@ -48,9 +32,9 @@ a:active {
 img {
   max-width: 100%;
   opacity: 1;
-  margin-top: 0em;
-  margin-bottom: 0em;
-  float: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
 }
 
 h1 {
@@ -71,21 +55,20 @@ h2 {
   text-align: center;
   margin: 1em auto 2em auto;
   width: 100%;
-  text-transform: ;
 }
 
-h3 {  
+h3 {
   /*font-family: 'Merriweather', serif;*/
   font-size: 1.5em;
   font-weight: 200;
   width: 100%;
   color: #cccccc;
-  margin-bottom: 1em; 
+  margin-bottom: 1em;
 }
 
 h4 {
   font-family: 'Open Sans', sans-serif;
-  font-size: 2em;  
+  font-size: 2em;
   font-weight: 800;
   color: #455A64;
   line-height: 1.25;
@@ -109,7 +92,7 @@ h6 {
   font-weight: 700;
   color: #333;
   line-height: 1.6em;
-  margin: 0em;
+  margin: 0;
 }
 
 p {
@@ -128,7 +111,6 @@ footer {
   bottom: 0;
   text-align: center;
   color: #666;
-  font-size: 0.8em;
   padding-bottom: 15px;
   padding-top: 5em;
 }
@@ -146,9 +128,8 @@ footer {
 }
 
 .center {
-  float:center;
   text-align: center;
-  vertical-align: center;
+  vertical-align: middle;
 }
 
 .uppercase {
@@ -187,13 +168,11 @@ header {
   top: 0;
   left: 0;
   width: 100vw;
-  height: 250px;
-  margin: 0px auto;
-  background-image: url('');
+  margin: 2em auto;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding-top: 2em;
+  margin-top: 2em;
 }
 
 .title {
@@ -217,20 +196,20 @@ header {
   width: 80%;
   display: block;
   text-align: right;
-  padding-top: 1em;
+  margin-top: 1em;
   height: 100%;
 }
 
 .nav li {
   font-weight: 600;
   display: inline-block;
-  padding-left: 1em 1em;
+  padding-left: 1em;
 }
 
 /* -------------------------------------------------- portfolio formatting -------------------------------------------------- */
 /* from  http://www.queness.com/post/14577/create-a-simple-responsive-portfolio-page-with-filtering-and-hover-effect  */
 
-#filters {
+.filter-container {
   position: relative;
   float: left;
   width: 20%;
@@ -238,24 +217,24 @@ header {
   text-align: left;
 }
 
-#filters p {
+.filter-container p {
   display: block;
   text-decoration: none;
   cursor: pointer;
 }
 
-#filters p:hover {
+.filter-container p:hover {
   color: #20D7D3;
   font-weight: 600;
   padding-left: 1em;
-  transition: all 1s ease;  
+  transition: all 1s ease;
 }
-  
-#filters p.active {
+
+.filter-container .active {
   color: #20D7D3;
   font-weight: 600;
   padding-left: 1em;
-  transition: all 1s ease;  
+  transition: all 1s ease;
 }
 
 .pageBorder {
@@ -263,45 +242,32 @@ header {
    padding: 2em;
 }
 
-#myContent {
- -moz-column-count: 3;
- -moz-column-gap: 3em;
- -webkit-column-count: 3;
- -webkit-column-gap: 3em;
- column-count: 3;
- column-gap: 3em;
- overflow: hidden;
+.portfolio-content {
  float: right;
  width: 80%;
 }
 
-#myContent .portfolio {
-  display: none;
-}
-
-#myContent li {
- display: inline-block;
- margin-bottom: 3em;
- width: 100%;
+.portfolio-content .portfolio {
+ margin-bottom: 1em;
  font-size: 0.9em;
  color: #20D7D3;
- display: none;
 }
- 
-#myContent li img{
+
+.grid-sizer,
+.portfolio {
+  width: 22%;
+}
+
+.portfolio-content .portfolio img{
  margin-bottom: 0.5em;
  opacity: 1;
 }
 
-#myContent li:hover img {
+.portfolio-content .portfolio:hover img {
  opacity: 0.5;
  transition: all 0.5s ease 0s;
-};
-
-#myContent .type {
- font-size: 0.8em;
- color: #20D7D3;
 }
 
-
-
+.portfolio-content .type {
+ color: #20D7D3;
+}
